@@ -4,5 +4,8 @@ def my_each(words)
     yield(words[i])
     i = i + 1
   end
-  array
+  words
 end
+
+my_each(words) do |word|
+  if
